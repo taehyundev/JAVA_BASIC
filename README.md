@@ -64,3 +64,25 @@
    
         다형성은 같은 이름의 메소드가 클래스 혹은 객체에 따라 다르게 동작하도록 구현되는 것을 말한다.
        EX) 오버로딩, 오버라이딩
+       
+       
+  
+   ### <가비지(garbage)란?>
+   
+        가비지란 자바 응용프로그램에서 더 이상 사용되지 않게 된 객체나 배열이다. (쓰레기)
+        
+        Person a,b;
+        a = new Person("a");
+        b = new Person("b");
+        b = a; // b가 가르키던 객체는 가비지가됨
+        
+     
+   ### <Static과 Non-Static>  [자세한설명 - (Tistory 참조)](https://supersoftware.tistory.com/entry/static-%EA%B3%BC-non-static)
+   
+        먼저 쉽게 설명해서 눈은 사람이라는 객체의 non-static 멤버이며, 공기는 static 멤버이다.
+        소유와 공유 의 개념으로 생각하면 편할꺼같다.
+        
+        Static 멤버는 클래스당 하나씩 생긴다고 해서 클래스 멤버라고 부른다.
+        Non-Static 멤버는 각 객체마다 하나씩 생긴다고 해서 인스턴스 멤버라고 부른다.
+        
+  
