@@ -12,13 +12,13 @@
 ## 목차 (2020-02 start : 1분기 Java 공부 내용 )
 
  + **Chap1**
-   >   *연산자와 조건문* (정리완료)
+   >   [*연산자와 조건문* (정리완료)](https://github.com/taehyundev/JavaStudy/tree/master/2020-02_Javastudy(1%EB%B6%84%EA%B8%B0)/Chap01)
  
  + **Chap2**
-   >   *반복문과 배열 다차원배열 예외처리*
+   >   [*반복문과 배열 다차원배열 예외처리* (정리완료)](https://github.com/taehyundev/JavaStudy/tree/master/2020-02_Javastudy(1%EB%B6%84%EA%B8%B0)/Chap02)
  
  + **Chap3**
-   >   *클래스와 객체*
+   >   [*클래스와 객체* (정리완료)](https://github.com/taehyundev/JavaStudy/tree/master/2020-02_Javastudy(1%EB%B6%84%EA%B8%B0)/Chap03)
  
  + **Chap4**
    >   *상속*
