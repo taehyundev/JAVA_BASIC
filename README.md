@@ -21,7 +21,7 @@
    >   [*클래스와 객체* (정리완료)](https://github.com/taehyundev/JavaStudy/tree/master/2020-02_Javastudy(1%EB%B6%84%EA%B8%B0)/Chap03)
  
  + **Chap4**
-   >   *상속*
+   >   [*상속* (정리완료)](https://github.com/taehyundev/JavaStudy/tree/master/2020-02_Javastudy(1%EB%B6%84%EA%B8%B0)/Chap04)
  
  + **Chap5**
    >   *모듈과 패키지*
@@ -86,3 +86,85 @@
         Non-Static 멤버는 각 객체마다 하나씩 생긴다고 해서 인스턴스 멤버라고 부른다.
         
   
+  
+  
+#
+ **Chap4** - 추가 설명
+  ### <업캐스팅과 다운캐스팅>
+  * 업캐스팅
+  
+        서브 클래스의 객체에 대한 레퍼런스를 슈퍼 클래스 타입으로 변환하는 것을
+        업캐스팅이라고 한다.
+        
+         Ex) 
+        //upcasting
+        
+        Person p;
+        Student s = new Student();
+        p = s; //업캐스팅
+ 
+ * 다운캐스팅
+  
+        업캐스팅과 반대로 캐스팅하는 것을 다운캐스팅이라고 한다.   
+        
+        Ex)
+        //downcasting
+        
+        Person p = new Student("이재문");
+        Student s = (Student)p; //다운 캐스팅
+       
+
+  ### <추상 클래스>        
+        
+
+         추상 메소드는 선언되어 있으나 코드가 구현되어 있지 않은, 즉 껍데기만 있는
+         메소드 이다. abstract 키워드를 사용한다.
+
+         Ex)
+         public abstract String getName();
+         public abstract void setName(String s);
+
+         추상 클래스는 추상 메소드를 포함하는 클래스와 추상 메소드가 없지만,
+         abstract로 선언한 클래스가 있다.
+
+         Ex1. 추상 메소드를 포함하는 클래스)
+         abstract class Shpae { //추상 클래스 선언
+           public Shape() {}
+           public void paint() { draw(); }
+           abstract public void draw(); //추상 메소드 선언
+         }
+
+         Ex2. 추상 메소드가 없지만 abstract로 선언한 클래스)
+         abstract class MyComponent { //추상 클래스 선언
+           String name;
+           public void load(String name) {
+             this.name = name;
+           }
+         }
+         
+         * 추상 클래스는 객첵를 생성할 수 없다.
+         * 추상 클래스는 계층적 상속 관계를 가지는 클래스들의 구조를 만들 때 적합하다.
+   
+  ### <인터페이스>
+  * 인터페이스
+         
+         
+         인터페이스는 interface 키워드를 사용하여 클래스를 선언하듯이 선언한다.
+         
+  * 인터페이스의 특징
+  
+    1. 인터페이스는 객체를 생성할 수 없다.
+    2. 인터페이스 타입의 레퍼런스 변수는 선언 가능한다.
+    3. 인터페이스끼리 상속된다.
+    4. 인터페이스를 상속받아 클래스를 작성하면 인터페이스의 모든 추상 메소드를 구현하여야 한다.
+    
+    
+  * 인터페이스 구현 - [(implements Tistory 추가 설명)](https://zbomoon.tistory.com/13)
+  
+          인터페이스 구현이란 implements 키워드를 사용하여 인터페이스의 모든 추상 메소드를
+          구현한 클래스를 작성하는 것 이다.
+          
+          * 다중 인터페이스 구현이 가능하다.
+          
+        
+    
