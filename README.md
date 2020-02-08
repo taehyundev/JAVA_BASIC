@@ -24,15 +24,12 @@
    >   [*상속* (정리완료)](https://github.com/taehyundev/JavaStudy/tree/master/2020-02_Javastudy(1%EB%B6%84%EA%B8%B0)/Chap04)
  
  + **Chap5**
-   >   *모듈과 패키지*
- 
- + **Chap6**
    >   *제네릭과 컬렉션*
  
- + **Chap7**
+ + **Chap6**
    >    *입출력 스트림과 파일 입출력*
  
- + **Chap8**
+ + **Chap7**
    >   *자바 GUI 기초 AWT와 스윙*
  
  
