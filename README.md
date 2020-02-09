@@ -7,9 +7,9 @@
 **기본기** 의 중요성에 대해서 확실하게 느끼게 되었다. 
 
 
-###### restart : 2020-02-03 ~
+###### restart : 2020-02-03 ~ 2020-02-09 (fin)
 
-## 목차 (2020-02 start : 1분기 Java 공부 내용 )
+## 목차 (2020-02 start : 1분기 Java 공부 내용 (정리완료)) 
 
  + **Chap1**
    >   [*연산자와 조건문* (정리완료)](https://github.com/taehyundev/JavaStudy/tree/master/2020-02_Javastudy(1%EB%B6%84%EA%B8%B0)/Chap01)
@@ -27,11 +27,11 @@
    >   [*제네릭과 컬렉션* (정리완료)](https://github.com/taehyundev/JavaStudy/tree/master/2020-02_Javastudy(1%EB%B6%84%EA%B8%B0)/Chap05)
  
  + **Chap6**
-   >    *입출력 스트림과 파일 입출력*
- 
- + **Chap7**
-   >   *자바 GUI 기초 AWT와 스윙*
- 
+   >    [*입출력 스트림과 파일 입출력* (정리완료)](https://github.com/taehyundev/JavaStudy/tree/master/2020-02_Javastudy(1%EB%B6%84%EA%B8%B0)/Chap06)
+
+#
+
+## 목차 ( 2분기 Java 공부 내용 (준비중)) 
  
  
 #
@@ -205,6 +205,14 @@
   * 제네릭 클래스
    > 제네릭 클래스를 작성하는 방법은 기존의 클래스 작성 방법과 유사한데, 클래스 이름 다음에
    > 일반화된 타입의 매개변수를 <와 > 사이에 추가한다는 차이가 있다.
+   
+   
+
+#
+ 
+ 
+ **Chap6** - 추가 설명
+ > 입출력 방식의 여러 종류를 따로 담지는 않고, 기본적인 입출력이란 어떻게 되는 것인가에 대해 담아보았다.
    
         
            
