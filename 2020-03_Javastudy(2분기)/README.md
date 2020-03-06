@@ -3,7 +3,7 @@
 ## 목차 (start:2020-03-5~ 2분기 Java 공부 내용) 
 
  + **Chap1**
-   >   *자바 GUI 기초 AWT와 스윙(Swing)*
+   >   [ *자바 GUI 기초 AWT와 스윙(Swing)* ](https://github.com/taehyundev/JavaStudy/tree/master/2020-03_Javastudy(2%EB%B6%84%EA%B8%B0)/Chap01)
 
  + **Chap2**
    >   *자바의 이벤트 처리*
