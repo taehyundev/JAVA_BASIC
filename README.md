@@ -65,7 +65,7 @@
    
          일반적인 배열의 형태이다.
    
-  * [비정방형 배열](https://github.com/taehyundev/JavaStudy/blob/master/2020-02_Javastudy(1%EB%B6%84%EA%B8%B0)/Chap02/Ex02_06.java)
+  * [비정방형 배열 - 추가설명 링크](https://github.com/taehyundev/JavaStudy/blob/master/2020-02_Javastudy(1%EB%B6%84%EA%B8%B0)/Chap02/Ex02_06.java)
   
         행마다 열의 갯수가 다른 배열을 보여준다.
  
