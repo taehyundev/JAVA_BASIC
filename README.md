@@ -31,7 +31,7 @@
 
 #
 
-## 목차 (start:2020-03-5~ 2분기 Java 공부 내용) 
+## 목차 (start:2020-03-05~ 2분기 Java 공부 내용) 
 
  + **Chap1**
    >   [*자바 GUI 기초 AWT와 스윙(Swing)* (정리완료)](https://github.com/taehyundev/JavaStudy/tree/master/2020-03_Javastudy(2%EB%B6%84%EA%B8%B0)/Chap01)
@@ -57,6 +57,9 @@
  + **Chap8**
    >   *네트워크*
 
+ 
+ ## 1분기내용 이론 다지면서 복습 예정
+> 준비중
  
 #
  **Chap2** - 추가 설명
