@@ -1,11 +1,6 @@
-package Chpater2;
-
 import java.util.Scanner;
-
-public class Ex2_3 {
-
+public class pb2_3 {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.print("금액을 입력하시오>>");
 		Scanner s = new Scanner(System.in);
 		int money = s.nextInt();
@@ -39,5 +34,4 @@ public class Ex2_3 {
 		System.out.println("일원 : "+temp);
 
 	}
-
 }
